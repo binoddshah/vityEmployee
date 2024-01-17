@@ -1,8 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using vityEmployeeInfoSystem.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddDbContext<AgroEmployeeDbContext>(options=>
+options.UseSqlServer(builder.Configuration.GetConnectionString("dbConnection")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

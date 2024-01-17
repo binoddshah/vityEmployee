@@ -46,12 +46,92 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/designation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVzaWduYXRpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/designation/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVzaWduYXRpb25cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/designation/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVzaWduYXRpb25cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/designation/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVzaWduYXRpb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/designation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVzaWduYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/employee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/employee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/employee/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/employee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZW1wbG95ZWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/leave/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGVhdmVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/leave/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGVhdmVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/leave/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGVhdmVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/leave/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGVhdmVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/leave/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGVhdmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/salary/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2FsYXJ5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/salary/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2FsYXJ5XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/salary/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2FsYXJ5XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/salary/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2FsYXJ5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/salary/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2FsYXJ5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/Shared/Error.cshtml]

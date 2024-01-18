@@ -1,8 +1,138 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vity Fitness Employee Management System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #495057;
+            padding-top: 20px; /* Add some padding for the content */
+        }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+        h2 {
+            color: #28a745;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #007bff;
+        }
+
+        h3 {
+            color: #343a40;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        ul ul {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            color: #868e96;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+
+        .employee-card {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .employee-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h2>Welcome to Vity Fitness Employee Management System</h2>
+        <img src="~/images/gym3.png" alt="Fitness Center Image" class="img-fluid rounded">
+
+        <p>Empower your fitness business with our comprehensive employee management system. Streamline your operations, manage staff efficiently, and focus on what matters – your clients.</p>
+
+        <h3>Employee List</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="employee-card">
+                    <img src="~/images/emp1.png" alt="John Doe" class="employee-image">
+                    <p><strong>John Doe</strong></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="employee-card">
+                    <img src="~/images/emp2.png" alt="Alice Smith" class="employee-image">
+                    <p><strong>Alice Smith</strong></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="employee-card">
+                    <img src="~/images/emp1.png" alt="Emily Davis" class="employee-image">
+                    <p><strong>Emily Davis</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more employee cards as needed -->
+
+        <h3>Leaves</h3>
+        <ul>
+            <li>
+                Upcoming Leaves:
+                <ul>
+                    <li>John Doe: 2 days leave starting on January 25, 2024</li>
+                    <li>Alice Smith: 1 day leave on February 3, 2024</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Salary</h3>
+        <ul>
+            <li>Salary Payment Date: 1st of every month</li>
+            <li>Payroll Manager: Sarah Johnson</li>
+        </ul>
+
+        <h3>Users</h3>
+        <ul>
+            <li>System Administrator: admin@vityfitness.com</li>
+            <li>Manager: manager@vityfitness.com</li>
+            <li>Front Desk User: frontdesk@vityfitness.com</li>
+        </ul>
+
+        <h3>Log Out</h3>
+        <p>Thank you for using Vity Fitness Employee Management System!</p>
+    </div>
+
+    <footer>
+        &copy; 2024 - Vity Fitness Employee Management System
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

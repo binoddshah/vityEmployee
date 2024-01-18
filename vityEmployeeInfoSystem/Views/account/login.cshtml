@@ -1,61 +1,93 @@
-﻿
-@{
+﻿@{
     Layout = null;
 }
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-dtwN/OfVS0T+0q6S82u0t2O3zvhX0j3u45p2f7aD99SzS3qMz9EC1a6vPvrdWYba" crossorigin="anonymous">
 @model vityEmployeeInfoSystem.Models.UserTable
 
 <!DOCTYPE html>
-<style>
-    h1{text-align:center;font-family:Verdana, Geneva, Tahoma, sans-serif;color:darkgreen;font-size:xx-large;}
-    .center{
-        position:absolute;
-        top:30%;
-        left:50%;
-        transform:translate(-50%,-50%);
--    }
-input,button{font-size:30px;text-align:center;width:500px;}
-table td{font-size:30px;}
-
-</style>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-dtwN/OfVS0T+0q6S82u0t2O3zvhX0j3u45p2f7aD99SzS3qMz9EC1a6vPvrdWYba" crossorigin="anonymous">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width" />
-    <title>login</title>
- 
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 400px;
+            margin-top: 5%;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+            color: darkgreen;
+            font-size: xx-large;
+            margin-bottom: 30px;
+        }
+
+        .input-group-prepend span {
+            font-size: 18px;
+        }
+
+        input,
+        button {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        table td {
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-   <h1 style="text-align:center">Login Page</h1>
-   <form action="login" method="post">
-       <div asp-validation-summary="All" class="text-danger"></div>
-      
-           <table class="center" >
-               <tr>
-                   <td><label asp-for="UserName" class="col-form-label"></label></td>
-                   <td><input  asp-for="UserName" class="form-control"/>
-                   <span asp-validation-for="UserName" class="text-danger"></span>    
-                   </td>
-               </tr>
-               <tr>
-                   <td><label asp-for="Password" class="col-form-label"></label></td>
-                   <td><input type="password" asp-for="Password" class="form-control"/>
-                        <span asp-validation-for="Password" class="text-danger"></span>
-                    </td>
-               </tr>
-               <tr><td colspan="4">
-                   <button type="submit" class="btn  btn-primary" style="width:100%">Login</button>
-               </td></tr>
-           </table>
-    
-   </form>
- 
+    <div class="container">
+        <h1>Login Page</h1>
+        <form action="login" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                </div>
+                <input asp-for="UserName" class="form-control" placeholder="Username" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                </div>
+                <input type="password" asp-for="Password" class="form-control" placeholder="Password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
+        </form>
+    </div>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UoHfT8iZiFu6eBk1ZciNXF2Cp2Pnp2HfOB6c5MElzWjI1uFsjVoqA2H2tJSVxKz" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha384-WJ1RR3N2NZ6nfDdJN70Rwj8Aat5Qq4OK77RwzM10EKxFVeO3XGCSeviZISL6DpjH" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\AdvancedProgramming\\VityProject\\vityEmployeeInfoSystem\\wwwroot\\images\\gym.jpg",
+      "PackagePath": "staticwebassets\\images\\gym.jpg"
+    },
+    {
+      "Id": "E:\\AdvancedProgramming\\VityProject\\vityEmployeeInfoSystem\\wwwroot\\images\\gym1.jpg",
+      "PackagePath": "staticwebassets\\images\\gym1.jpg"
+    },
+    {
+      "Id": "E:\\AdvancedProgramming\\VityProject\\vityEmployeeInfoSystem\\wwwroot\\images\\gym2.jpg",
+      "PackagePath": "staticwebassets\\images\\gym2.jpg"
+    },
+    {
+      "Id": "E:\\AdvancedProgramming\\VityProject\\vityEmployeeInfoSystem\\wwwroot\\images\\muscular.jpg",
+      "PackagePath": "staticwebassets\\images\\muscular.jpg"
+    },
+    {
       "Id": "E:\\AdvancedProgramming\\VityProject\\vityEmployeeInfoSystem\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

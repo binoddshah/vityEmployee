@@ -13,7 +13,10 @@ namespace vityEmployeeInfoSystem.Controllers
         }
 
   
-       
+       public IActionResult Index()
+        {
+            return View();
+        }
         public IActionResult login()
         {
             return View();

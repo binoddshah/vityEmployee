@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vityEmployeeInfoSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20e75e0ac6d817bb83f9e330d2c807df69a5c2da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cba07b74682cf4da5daafe46886452ce37dbbd76")]
 [assembly: System.Reflection.AssemblyProductAttribute("vityEmployeeInfoSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vityEmployeeInfoSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

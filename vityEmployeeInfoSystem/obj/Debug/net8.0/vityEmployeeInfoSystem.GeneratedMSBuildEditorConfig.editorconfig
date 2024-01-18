@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\AdvancedProgramming\VityProject\vityEmployeeInfoSystem
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/AdvancedProgramming/VityProject/vityEmployeeInfoSystem/Views/account/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYWNjb3VudFxsb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

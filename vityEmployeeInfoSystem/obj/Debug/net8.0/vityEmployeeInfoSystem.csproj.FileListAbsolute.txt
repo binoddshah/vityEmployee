@@ -253,3 +253,10 @@ E:\AdvancedProgramming\VityProject\vityEmployeeInfoSystem\bin\Debug\net8.0\runti
 E:\AdvancedProgramming\VityProject\vityEmployeeInfoSystem\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 E:\AdvancedProgramming\VityProject\vityEmployeeInfoSystem\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 E:\AdvancedProgramming\VityProject\vityEmployeeInfoSystem\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+E:\AdvancedProgramming\VityProject\vityEmployeeInfoSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+E:\AdvancedProgramming\VityProject\vityEmployeeInfoSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+E:\AdvancedProgramming\VityProject\vityEmployeeInfoSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+E:\AdvancedProgramming\VityProject\vityEmployeeInfoSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+E:\AdvancedProgramming\VityProject\vityEmployeeInfoSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+E:\AdvancedProgramming\VityProject\vityEmployeeInfoSystem\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\AdvancedProgramming\VityProject\vityEmployeeInfoSystem\bin\Debug\net8.0\Microsoft.JSInterop.dll
